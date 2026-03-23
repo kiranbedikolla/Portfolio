@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kolla Kiran Bedi | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Ambient Glow Background -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">Kiran<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero / About Section -->
+  <header id="about" class="hero-section">
+    <div class="container hero-container">
+      <div class="hero-text slide-up">
+        <p class="greeting">Hello, I'm</p>
+        <h1 class="glitch" data-text="Kolla Kiran Bedi">Kolla Kiran Bedi</h1>
+        <h2 class="role"><span class="gradient-text">Data Science</span></h2>
+
+        <p class="intro">Computer Science student passionate about Data Science and Problem Solving.
+        </p>
+
+        <div class="hero-card glass">
+          <i class="fas fa-bullseye text-blue"></i>
+          <p><strong>Career Objective:</strong> To dive deep into datasets, build innovative models, and grow in the field of Data Science.
+          </p>
+        </div>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <div class="social-icons">
+            <a href="https://github.com/kiranbedikolla" target="_blank" class="glass-icon"><i
+                class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/kiran-bedi-kolla-47b914356/" target="_blank" class="glass-icon"><i
+                class="fab fa-linkedin"></i></a>
+            <a href="mailto:kiranbedi006@gmail.com" class="glass-icon"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image fade-in">
+        <div class="image-wrapper">
+          <div class="profile-img-container">
+            <img src="profile.jpeg" alt="Kolla Kiran Bedi" class="profile-img">
+          </div>
+          <div class="floating-badge badge-1 glass"><i class="fab fa-python"></i> Python</div>
+          <div class="floating-badge badge-2 glass"><i class="fas fa-chart-pie"></i> Data</div>
+          <div class="floating-badge badge-3 glass"><i class="fas fa-code"></i> Dev</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Bento Grid Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="section-title">Selected <span class="gradient-text">Projects</span></h2>
+        <p>A showcase of my recent work in Data Science.</p>
+      </div>
+
+      <div class="bento-grid">
+
+        <!-- Project 1 -->
+        <div class="bento-item bento-large glass slide-up">
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Excel</span>
+              <span class="tag">Data Visualization</span>
+            </div>
+            <h3>E-commerce Dataset Dashboard</h3>
+            <div class="car-format">
+              <div class="car-item">
+                <div class="car-icon challenge"><i class="fas fa-bolt"></i></div>
+                <div class="car-text"><strong>Challenge:</strong> Identify top selling products and revenue using an
+                  Excel dataset.</div>
+              </div>
+              <div class="car-item">
+                <div class="car-icon action"><i class="fas fa-tools"></i></div>
+                <div class="car-text"><strong>Action:</strong> Used Pivot Tables, Charts, and Data Cleaning to build a
+                  dashboard.</div>
+              </div>
+              <div class="car-item">
+                <div class="car-icon result"><i class="fas fa-chart-line"></i></div>
+                <div class="car-text"><strong>Result:</strong> Built an interactive dashboard exposing key sales
+                  insights.</div>
+              </div>
+            </div>
+          </div>
+          <div class="project-visual">
+            <img src="ecommerce_dashboard.png" alt="Dashboard">
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="bento-item bento-large bento-reverse glass slide-up" style="transition-delay: 0.1s;">
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Tkinter</span>
+            </div>
+            <h3>Sorting Algorithm Visualizer</h3>
+            <div class="car-format">
+              <div class="car-item">
+                <div class="car-icon challenge"><i class="fas fa-bolt"></i></div>
+                <div class="car-text"><strong>Challenge:</strong> Visualize sorting algorithms for effective learning.
+                </div>
+              </div>
+              <div class="car-item">
+                <div class="car-icon action"><i class="fas fa-tools"></i></div>
+                <div class="car-text"><strong>Action:</strong> Implemented Bubble, Merge, Quick, and Selection sort
+                  using Tkinter GUI.</div>
+              </div>
+              <div class="car-item">
+                <div class="car-icon result"><i class="fas fa-tachometer-alt"></i></div>
+                <div class="car-text"><strong>Result:</strong> Animated bar visualization with real-time speed controls.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-visual">
+            <img src="sorting_visualizer.png" alt="Algorithm Visualizer">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Modern Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="section-title">Technical <span class="gradient-text">Arsenal</span></h2>
+      </div>
+
+      <div class="skills-bento">
+        <div class="skill-card glass slide-up">
+          <div class="card-icon"><i class="fas fa-code"></i></div>
+          <h3>Languages</h3>
+          <div class="skill-pills">
+            <span class="pill"><i class="fab fa-python skill-i"></i> Python</span>
+            <span class="pill"><i class="fas fa-database skill-i"></i> SQL</span>
+            <span class="pill">C</span>
+            <span class="pill">C++</span>
+          </div>
+        </div>
+
+        <div class="skill-card glass slide-up" style="transition-delay: 0.1s;">
+          <div class="card-icon"><i class="fas fa-chart-pie"></i></div>
+          <h3>Data Analysis</h3>
+          <div class="skill-pills">
+            <span class="pill">Excel</span>
+            <span class="pill">Pandas</span>
+            <span class="pill">NumPy</span>
+            <span class="pill">Matplotlib</span>
+            <span class="pill">Seaborn</span>
+            <span class="pill">Tableau</span>
+            <span class="pill">Power BI</span>
+          </div>
+        </div>
+
+        <div class="skill-card glass slide-up" style="transition-delay: 0.2s;">
+          <div class="card-icon"><i class="fas fa-globe"></i></div>
+          <h3>Web & Tools</h3>
+          <div class="skill-pills">
+            <span class="pill"><i class="fab fa-html5 skill-i"></i> HTML/CSS</span>
+            <span class="pill"><i class="fab fa-bootstrap skill-i"></i> Bootstrap</span>
+            <span class="pill"><i class="fab fa-node-js skill-i"></i> NodeJS</span>
+            <span class="pill">MySQL</span>
+            <span class="pill">MongoDB</span>
+          </div>
+        </div>
+
+        <div class="skill-card glass slide-up highlight-card" style="transition-delay: 0.3s;">
+          <div class="card-icon"><i class="fas fa-brain"></i></div>
+          <h3>Core Strengths</h3>
+          <ul class="strength-list">
+            <li><i class="fas fa-check text-blue"></i> Problem Solving</li>
+            <li><i class="fas fa-check text-blue"></i> Creativity</li>
+            <li><i class="fas fa-check text-blue"></i> Innovation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Combined Certificates & Education Section -->
+  <section class="combo-section" id="certificates">
+    <div class="container">
+      <div class="combo-grid">
+
+        <!-- Certificates and Training -->
+        <div class="combo-col fade-in">
+          <h2 class="section-title" style="font-size: 2.5rem;">Training & Certifications</h2>
+          <div class="cert-list">
+            <div class="cert-item glass"
+              onclick="window.open('https://drive.google.com/file/d/1QkzdkbFRn5DfbLbVPzMAdzGKXF5-Jgc6/view?usp=sharing', '_blank')">
+              <div class="cert-icon-wrapper"><i class="fas fa-award"></i></div>
+              <div class="cert-details">
+                <h4>Computational Theory: Language Principle & Finite Automata Theory </h4>
+                <p>Infosys</p>
+              </div>
+              <div class="view-hint"><i class="fas fa-search-plus"></i> View</div>
+            </div>
+            <div class="cert-item glass"
+              onclick="window.open('https://drive.google.com/file/d/1zUVrqnsmgIc1M3j9p3Dg3FbN7vc9hWeH/view?usp=sharing', '_blank')">
+              <div class="cert-icon-wrapper"><i class="fas fa-award"></i></div>
+              <div class="cert-details">
+                <h4>Generative AI</h4>
+                <p>Udemy</p>
+              </div>
+              <div class="view-hint"><i class="fas fa-search-plus"></i> View</div>
+            </div>
+            <div class="cert-item glass"
+              onclick="window.open('https://drive.google.com/file/d/1vwFMUJFZ-G9wm1s9gYlKTz6BrX5yExBt/view?usp=sharing', '_blank')">
+              <div class="cert-icon-wrapper"><i class="fas fa-award"></i></div>
+              <div class="cert-details">
+                <h4>Fundamentals of Data Structures </h4>
+                <p>Lovely Professional University</p>
+              </div>
+              <div class="view-hint"><i class="fas fa-search-plus"></i> View</div>
+            </div>
+            <div class="cert-item glass"
+              onclick="window.open('https://drive.google.com/file/d/1PtWaaKEwrAGqmcOWcPlSva9rBBzMuVib/view?usp=sharing', '_blank')">
+              <div class="cert-icon-wrapper"><i class="fas fa-database"></i></div>
+              <div class="cert-details">
+                <h4>Cloud Computing </h4>
+                <p>NPTEL</p>
+              </div>
+              <div class="view-hint"><i class="fas fa-search-plus"></i> View</div>
+            </div>
+            <div class="cert-item glass"
+              onclick="window.open('https://drive.google.com/file/d/1cw69LAnwZ56Zqh3_71IudlkAnOHsApnn/view?usp=sharing', '_blank')">
+              <div class="cert-icon-wrapper"><i class="fas fa-network-wired"></i></div>
+              <div class="cert-details">
+                <h4>Hackathon</h4>
+                <p>Lovely Professional University</p>
+              </div>
+              <div class="view-hint"><i class="fas fa-search-plus"></i> View</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="combo-col fade-in" id="education" style="transition-delay: 0.2s;">
+          <h2 class="section-title">Education</h2>
+          <div class="modern-timeline">
+
+            <div class="timeline-box glass">
+              <div class="t-icon"><i class="fas fa-graduation-cap"></i></div>
+              <div class="t-content">
+                <span class="t-date">B.Tech CSE</span>
+                <h3>Lovely Professional University</h3>
+                <p class="t-grade">CGPA: 6.5</p>
+              </div>
+            </div>
+
+            <div class="timeline-box glass">
+              <div class="t-icon"><i class="fas fa-school"></i></div>
+              <div class="t-content">
+                <span class="t-date">Intermediate</span>
+                <h3>Sri Raju CBSE School</h3>
+                <p class="t-grade">80.7%</p>
+              </div>
+            </div>
+
+            <div class="timeline-box glass">
+              <div class="t-icon"><i class="fas fa-book-open"></i></div>
+              <div class="t-content">
+                <span class="t-date">Matriculation</span>
+                <h3>Sri Sai High School</h3>
+                <p class="t-grade">100%</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements and CV Section -->
+  <section class="achievements-section" id="cv">
+    <div class="container">
+      <div class="achievement-cv-container glass slide-up">
+        <div class="cv-left">
+          <h2 class="section-title">Milestones & <span class="gradient-text">CV</span></h2>
+          <ul class="milestones-list">
+            <li>
+              <div class="m-icon"><i class="fas fa-trophy"></i></div>
+              <div><strong>3rd Rank</strong> in Code Off Duty Web Hackathon</div>
+            </li>
+            <li>
+              <div class="m-icon"><i class="fas fa-star"></i></div>
+              <div>Built interactive <strong>Excel Dashboard</strong> Project</div>
+            </li>
+            <li>
+              <div class="m-icon"><i class="fas fa-star"></i></div>
+              <div>Developed animated <strong>Sorting Visualizer</strong></div>
+            </li>
+          </ul>
+        </div>
+        <div class="cv-right">
+          <div class="cv-card glass">
+            <i class="far fa-file-pdf cv-icon"></i>
+            <h3>Resume Profile</h3>
+            <p>Download my comprehensive CV to learn more about my experience and skills.</p>
+            <div class="cv-actions">
+              <a href="kirancv.pdf" download class="btn btn-primary"><i class="fas fa-download"></i> Download</a>
+              <a href="kirancv.pdf" target="_blank" class="btn btn-secondary glass-btn"><i class="fas fa-eye"></i>
+                View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+        <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+      </div>
+
+      <div class="contact-wrapper glass slide-up">
+        <div class="contact-methods">
+          <a href="mailto:kiranbedi006@gmail.com" class="c-method">
+            <div class="c-icon"><i class="fas fa-envelope"></i></div>
+            <div class="c-text">
+              <span>Email Me</span>
+              <strong>kiranbedi006@gmail.com</strong>
+            </div>
+          </a>
+          <a href="tel:+918074411993" class="c-method">
+            <div class="c-icon"><i class="fas fa-phone"></i></div>
+            <div class="c-text">
+              <span>Call Me</span>
+              <strong>+91 8074411993</strong>
+            </div>
+          </a>
+          <a href="https://github.com/kiranbedikolla" target="_blank" class="c-method">
+            <div class="c-icon"><i class="fab fa-github"></i></div>
+            <div class="c-text">
+              <span>GitHub</span>
+              <strong>kiranbedikolla</strong>
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/kiran-bedi-kolla-47b914356/" target="_blank" class="c-method">
+            <div class="c-icon"><i class="fab fa-linkedin"></i></div>
+            <div class="c-text">
+              <span>LinkedIn</span>
+              <strong>Kolla Kiran Bedi</strong>
+            </div>
+          </a>
+        </div>
+
+        <form id="contactForm" class="contact-form">
+          <div class="input-group">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+          </div>
+          <input type="text" id="subject" placeholder="Subject" required>
+          <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-primary submit-btn">
+            <span>Send Message</span> <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-logo">Kiran<span>.</span></div>
+      <p>&copy; 2026 Kolla Kiran Bedi. Designed & Built with passion.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/kiranbedikolla" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/kiran-bedi-kolla-47b914356/" target="_blank"><i
+            class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Certificate Image Modal -->
+  <div id="certModal" class="modal">
+    <span class="close-modal">&times;</span>
+    <img class="modal-content" id="modalImg">
+    <div id="modalCaption"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
